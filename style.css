@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-image: url("img/pattern.png"); */
+  background-color: black;
+}
+
+.header {
+  margin-top: 20px;
+  /* padding-top: 20px; */
+  margin-left: auto;
+  margin-right: auto;
+  /* display: flex; */
+  /* align-items: center; */
+  /* background-color: rgb(36, 80, 78); */
+  width: 25em;
+}
+
+#header h1 {
+  padding-top: 18px ;
+  
+  text-align: center;
+  color: yellow;
+}
+
+#composer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+#composer img {
+  margin-top: 10px;
+  max-width: 400px;
+  margin-bottom: 25px;
+  /* max-height: 400px; */
+}
+
+.buttons {
+  margin: auto;
+  /* width: 100%; */
+  text-align: center;
+}
+
+.about {
+  max-width: 120px;
+  /* width: 50em; */
+  /* padding-right: 20px; */
+  /* margin-right: 20px; */
+  border: yellow;
+  border-radius: 2px;
+  border-right-style: groove;
+  color: yellow;
+}
